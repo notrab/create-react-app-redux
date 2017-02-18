@@ -1,21 +1,17 @@
-import React from 'react';
-import { render } from 'react-dom';
-import App from './App';
-import './index.css';
+import React from 'react'
+import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import { Router, Route, IndexRoute } from 'react-router'
-import store, { history } from './store'
-import Home from './containers/home'
-import About from './containers/about'
+import store from './store'
+
+import Routes from './routes'
+
+import './index.css'
+
+const target = document.querySelector('#root')
 
 render(
   <Provider store={store}>
-    <Router history={history}>
-      <Route path="/" component={App}>
-        <IndexRoute component={Home} />
-        <Route path="/about-us" component={About} />
-      </Route>
-    </Router>
+    <Routes />
   </Provider>,
-  document.querySelector('#root')
+  target
 )
