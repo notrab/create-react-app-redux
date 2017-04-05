@@ -1,8 +1,10 @@
 import React from 'react'
 
-export default () => (
+const About = () => (
   <div>
-    <h1>About Us</h1>
-    <p>We are interesting. I promise!</p>
+    <h1>About Page</h1>
+    <p>Did you get here via Redux?</p>
   </div>
 )
+
+export default About
