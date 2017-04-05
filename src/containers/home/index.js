@@ -15,12 +15,12 @@ const Home = props => (
     <p>Count: {props.count}</p>
 
     <p>
-      <button onClick={props.increment}>Increment</button>
+      <button onClick={props.increment} disabled={props.isIncrementing}>Increment</button>
       <button onClick={props.incrementAsync} disabled={props.isIncrementing}>Increment Async</button>
     </p>
 
     <p>
-      <button onClick={props.decrement}>Decrementing</button>
+      <button onClick={props.decrement} disabled={props.isDecrementing}>Decrementing</button>
       <button onClick={props.decrementAsync} disabled={props.isDecrementing}>Decrement Async</button>
     </p>
 
