@@ -20,7 +20,7 @@ const Home = props => (
     </p>
 
     <p>
-      <button onClick={props.decrement} disabled={props.isDecrementing}>Decrementing</button>
+      <button onClick={props.decrement} disabled={props.isDecrementing}>Decrement</button>
       <button onClick={props.decrementAsync} disabled={props.isDecrementing}>Decrement Async</button>
     </p>
 
