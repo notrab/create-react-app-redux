@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.0",
     "react-scripts": "^1.0.17"
   },
   "dependencies": {
@@ -20,7 +23,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged"
   },
-  "homepage": "https://cra-redux-router-thunk.herokuapp.com"
+  "homepage": "https://cra-redux-router-thunk.herokuapp.com",
+  "lint-staged": {
+    "*.{js,json,css,md}": ["prettier --write", "git add"]
+  }
 }
