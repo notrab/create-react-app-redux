@@ -5,7 +5,7 @@ const {
   incrementAsync,
   decrement,
   decrementAsync
-} = require('../../../modules/counter');
+} = require('../../../actions/counter');
 
 const Connect = require('react-redux').connect;
 const Home = require('../components/');
