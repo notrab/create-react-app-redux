@@ -1,8 +1,4 @@
 const React = require('react');
-
-const { bindActionCreators } = require('redux');
-const { connect } = require('react-redux');
-
 const PropTypes = require('prop-types');
 
 class Home extends React.Component {

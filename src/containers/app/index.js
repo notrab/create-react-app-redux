@@ -1,20 +1,24 @@
-import React from 'react';
-import { Route, Link } from 'react-router-dom';
-import About from '../about';
+const React = require('react');
+const { Route, Link } = require('react-router-dom');
+const About = require('../about');
 const Home = require('../home/container');
 
-const App = () => (
-  <div>
-    <header>
-      <Link to="/">Home</Link>
-      <Link to="/about-us">About</Link>
-    </header>
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <header>
+          <Link to="/">Home</Link>
+          <Link to="/about-us">About</Link>
+        </header>
 
-    <main>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about-us" component={About} />
-    </main>
-  </div>
-);
+        <main>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about-us" component={About} />
+        </main>
+      </div>
+    );
+  }
+}
 
-export default App;
+module.exports = App;
