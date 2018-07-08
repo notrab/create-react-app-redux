@@ -1,10 +1,10 @@
 {
   "private": true,
-  "homepage": "https://notrab.github.io/create-react-app-redux",
+  "homepage": "https://create-react-app-redux.now.sh",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "now && now alias",
     "start": "react-scripts start",
+    "now-start": "serve -s ./build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -15,7 +15,6 @@
     "react-scripts": "1.1.4"
   },
   "dependencies": {
-    "gh-pages": "1.2.0",
     "react": "16.4.1",
     "react-dom": "16.4.1",
     "react-redux": "5.0.7",
@@ -24,6 +23,7 @@
     "react-router-redux": "5.0.0-alpha.6",
     "redux": "4.0.0",
     "redux-thunk": "2.3.0",
-    "sanitize.css": "6.0.0"
+    "sanitize.css": "6.0.0",
+    "serve": "^9.2.0"
   }
 }
