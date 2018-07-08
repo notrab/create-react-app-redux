@@ -1,37 +1,29 @@
 {
-  "name": "create-react-app-redux",
-  "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.0",
-    "prettier": "^1.11.0",
-    "react-scripts": "^1.0.17"
-  },
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-redux": "^5.0.6",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
-    "react-router-redux": "next",
-    "redux": "^3.7.2",
-    "redux-devtools-extension": "^2.13.2",
-    "redux-thunk": "^2.2.0",
-    "sanitize.css": "^5.0.0"
-  },
+  "homepage": "https://notrab.github.io/create-react-app-redux",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged"
+    "precommit": "pretty-quick --staged"
   },
-  "homepage": "https://cra-redux-router-thunk.herokuapp.com",
-  "lint-staged": {
-    "*.{js,json,css,md}": [
-      "prettier --write",
-      "git add"
-    ]
+  "devDependencies": {
+    "prettier": "1.13.7",
+    "react-scripts": "1.1.4"
+  },
+  "dependencies": {
+    "gh-pages": "1.2.0",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "react-redux": "5.0.7",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "react-router-redux": "5.0.0-alpha.6",
+    "redux": "4.0.0",
+    "redux-thunk": "2.3.0",
+    "sanitize.css": "6.0.0"
   }
 }
