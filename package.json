@@ -15,12 +15,12 @@
     "react-scripts": "1.1.4"
   },
   "dependencies": {
+    "connected-react-router": "^4.3.0",
     "react": "16.4.1",
     "react-dom": "16.4.1",
     "react-redux": "5.0.7",
     "react-router": "4.3.1",
     "react-router-dom": "4.3.1",
-    "react-router-redux": "5.0.0-alpha.9",
     "redux": "4.0.0",
     "redux-thunk": "2.3.0",
     "sanitize.css": "6.0.0",

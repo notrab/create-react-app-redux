@@ -1,5 +1,5 @@
 import React from 'react'
-import { push } from 'react-router-redux'
+import { push } from 'connected-react-router'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import {
@@ -15,18 +15,14 @@ const Home = props => (
     <p>Count: {props.count}</p>
 
     <p>
-      <button onClick={props.increment} disabled={props.isIncrementing}>
-        Increment
-      </button>
+      <button onClick={props.increment}>Increment</button>
       <button onClick={props.incrementAsync} disabled={props.isIncrementing}>
         Increment Async
       </button>
     </p>
 
     <p>
-      <button onClick={props.decrement} disabled={props.isDecrementing}>
-        Decrement
-      </button>
+      <button onClick={props.decrement}>Decrement</button>
       <button onClick={props.decrementAsync} disabled={props.isDecrementing}>
         Decrement Async
       </button>
@@ -40,10 +36,10 @@ const Home = props => (
   </div>
 )
 
-const mapStateToProps = state => ({
-  count: state.counter.count,
-  isIncrementing: state.counter.isIncrementing,
-  isDecrementing: state.counter.isDecrementing
+const mapStateToProps = ({ counter }) => ({
+  count: counter.count,
+  isIncrementing: counter.isIncrementing,
+  isDecrementing: counter.isDecrementing
 })
 
 const mapDispatchToProps = dispatch =>
@@ -58,4 +54,7 @@ const mapDispatchToProps = dispatch =>
     dispatch
   )
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home)
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Home)
