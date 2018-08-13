@@ -15,7 +15,7 @@
     "react-scripts": "1.1.4"
   },
   "dependencies": {
-    "connected-react-router": "4.4.0",
+    "connected-react-router": "4.4.1",
     "react": "16.4.2",
     "react-dom": "16.4.2",
     "react-redux": "5.0.7",
