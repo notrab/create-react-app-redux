@@ -6074,9 +6074,9 @@ sane@~1.6.0:
     walker "~1.0.5"
     watch "~0.10.0"
 
-sanitize.css@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-6.0.0.tgz#360132a0f209c71756d5fae2978874202c8e29ac"
+sanitize.css@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-7.0.0.tgz#b584cea52612b0340a398ba3992213f65d981000"
 
 sax@^1.2.1, sax@^1.2.4, sax@~1.2.1:
   version "1.2.4"
