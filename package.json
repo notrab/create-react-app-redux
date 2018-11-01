@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "prettier": "1.14.3",
-    "react-scripts": "2.1.0"
+    "react-scripts": "2.1.1"
   },
   "dependencies": {
     "connected-react-router": "4.5.0",
