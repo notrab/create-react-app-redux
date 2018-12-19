@@ -10,20 +10,26 @@
     "eject": "react-scripts eject",
     "precommit": "pretty-quick --staged"
   },
-  "devDependencies": {
-    "prettier": "1.15.3",
-    "react-scripts": "2.1.1"
-  },
   "dependencies": {
-    "connected-react-router": "4.5.0",
-    "react": "16.6.3",
-    "react-dom": "16.6.3",
-    "react-redux": "5.1.1",
-    "react-router": "4.3.1",
-    "react-router-dom": "4.3.1",
-    "redux": "4.0.1",
-    "redux-thunk": "2.3.0",
-    "sanitize.css": "7.0.3",
-    "serve": "10.1.1"
-  }
+    "connected-react-router": "^6.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "sanitize.css": "^8.0.0",
+    "serve": "^10.1.1"
+  },
+  "devDependencies": {
+    "prettier": "1.15.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
