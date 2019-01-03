@@ -11,20 +11,20 @@
     "precommit": "pretty-quick --staged"
   },
   "dependencies": {
-    "connected-react-router": "^6.0.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "connected-react-router": "^6.1.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
+    "react-scripts": "^2.1.2",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "sanitize.css": "^8.0.0",
     "serve": "^10.1.1"
   },
   "devDependencies": {
-    "prettier": "1.15.3"
+    "prettier": "^1.15.3"
   },
   "browserslist": [
     ">0.2%",
