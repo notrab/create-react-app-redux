@@ -1,0 +1,11 @@
+{
+  "home.title": "Home",
+  "home.count": "Count",
+  "home.increment": "Increment",
+  "home.increment_async": "Increment Async",
+  "home.decrement": "Decrement",
+  "home.decrement_async": "Decrement Async",
+  "home.go_to_about_page": "Go to about page via redux",
+  "about.title": "About",
+  "about.description": "Did you get here via Redux?"
+}

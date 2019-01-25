@@ -1,20 +1,33 @@
-import React from 'react'
-import { Route, Link } from 'react-router-dom'
-import Home from '../home'
-import About from '../about'
+/**
+ * App Layout
+ */
+
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { Switch, Route } from 'react-router-dom';
+
+import Header from 'components/Header';
+import Home from 'containers/Home';
+import About from 'containers/About';
 
 const App = () => (
   <div>
-    <header>
-      <Link to="/">Home</Link>
-      <Link to="/about-us">About</Link>
-    </header>
+    <Helmet
+      titleTemplate="%s"
+      defaultTitle="React Redux Boilerplate"
+    >
+      <meta name="description" content="A React Redux Boilerplate application" />
+    </Helmet>
+
+    <Header/>
 
     <main>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about-us" component={About} />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about-us" component={About} />
+      </Switch>
     </main>
   </div>
-)
+);
 
-export default App
+export default App;
