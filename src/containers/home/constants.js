@@ -1,0 +1,4 @@
+export const INCREMENT_REQUESTED = 'Home/INCREMENT_REQUESTED';
+export const INCREMENT = 'Home/INCREMENT';
+export const DECREMENT_REQUESTED = 'Home/DECREMENT_REQUESTED';
+export const DECREMENT = 'Home/DECREMENT';
