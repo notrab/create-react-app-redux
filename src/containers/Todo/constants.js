@@ -1,0 +1,7 @@
+/**
+ * Todo Constants
+ */
+
+export const GET_TODO_REQUEST = 'Todo/GET_TODO_REQUEST';
+export const GET_TODO_REQUEST_SUCCESS = 'Todo/GET_TODO_REQUEST_SUCCESS';
+export const GET_TODO_REQUEST_FAILURE = 'Todo/GET_TODO_REQUEST_FAILURE';

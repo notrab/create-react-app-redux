@@ -11,6 +11,7 @@
     "precommit": "pretty-quick --staged"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "connected-react-router": "^6.2.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

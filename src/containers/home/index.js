@@ -8,7 +8,6 @@ import { push } from 'connected-react-router';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { FormattedMessage } from 'react-intl';
-
 import {
   increment,
   incrementAsync,

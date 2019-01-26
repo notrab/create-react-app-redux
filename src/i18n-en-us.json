@@ -7,5 +7,6 @@
   "home.decrement_async": "Decrement Async",
   "home.go_to_about_page": "Go to about page via redux",
   "about.title": "About",
-  "about.description": "Did you get here via Redux?"
+  "about.description": "Did you get here via Redux?",
+  "todo.title": "Todo"
 }

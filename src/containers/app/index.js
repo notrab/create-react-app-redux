@@ -9,6 +9,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from 'components/Header';
 import Home from 'containers/Home';
 import About from 'containers/About';
+import Todo from 'containers/Todo';
 
 const App = () => (
   <div>
@@ -25,6 +26,7 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about-us" component={About} />
+        <Route exact path="/todo" component={Todo} />
       </Switch>
     </main>
   </div>
