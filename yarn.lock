@@ -7389,9 +7389,9 @@ react-app-polyfill@^0.2.2:
     raf "3.4.1"
     whatwg-fetch "3.0.0"
 
-react-dev-utils@^7.0.4:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-7.0.4.tgz#b63f8e3fb360c4fe4c29c7c44eb0953c0b1102b1"
+react-dev-utils@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-8.0.0.tgz#7c5b227a45a32ea8ff7fbc318f336cf9e2c6e34c"
   dependencies:
     "@babel/code-frame" "7.0.0"
     address "1.0.3"
@@ -7479,9 +7479,9 @@ react-router@4.3.1, react-router@^4.3.1:
     prop-types "^15.6.1"
     warning "^4.0.1"
 
-react-scripts@2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-2.1.6.tgz#6490c522997f22f82f1c6b89e3f889a7636d75df"
+react-scripts@2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-2.1.8.tgz#21195bb928b2c0462aa98b2d32edf7d034cff2a9"
   dependencies:
     "@babel/core" "7.2.2"
     "@svgr/webpack" "4.1.0"
@@ -7519,7 +7519,7 @@ react-scripts@2.1.6:
     postcss-preset-env "6.5.0"
     postcss-safe-parser "4.0.1"
     react-app-polyfill "^0.2.2"
-    react-dev-utils "^7.0.4"
+    react-dev-utils "^8.0.0"
     resolve "1.10.0"
     sass-loader "7.1.0"
     style-loader "0.23.1"
