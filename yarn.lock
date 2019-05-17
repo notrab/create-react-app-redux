@@ -8031,9 +8031,9 @@ sane@^2.0.0:
   optionalDependencies:
     fsevents "^1.2.3"
 
-sanitize.css@7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-7.0.3.tgz#121929e784381013256cd4805d1d8983a95ffae3"
+sanitize.css@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-9.0.0.tgz#265046e3e680b499ae8b349811875688d0fce84a"
 
 sass-loader@7.1.0:
   version "7.1.0"
