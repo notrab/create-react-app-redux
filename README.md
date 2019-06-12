@@ -1,13 +1,14 @@
 # React-Redux-Router Boilerplate
 
 A create-react-app project with the following dependencies integrated and ready to go:
-* Redux
-* React Redux
-* React Router
-* ESLint
-* Flow
-* Jest
+* [Redux](https://redux.js.org/)
+* [React Redux](https://github.com/reduxjs/react-redux)
+* [React Router](https://github.com/ReactTraining/react-router)
+* [ESLint](https://eslint.org/)
+* [Flow](https://flow.org/) 
+* [Jest](https://jestjs.io/)
 
+---
 ## Installation
 
 ```bash
@@ -15,12 +16,22 @@ git clone https://github.com/davidmccormack/react-redux-router.git
 cd react-redux-router
 yarn
 ```
-
-## Configuring ESLint
+---
+## Configuring Dependencies
+### ESLint
 ```bash
 npx eslint --init
 ```
+### Jest
+```bash
+jest --init 
+```
 
+### Flow
+```bash
+flow init
+```
+---
 ## Get started
 
 ```bash
