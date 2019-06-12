@@ -16,6 +16,11 @@ cd react-redux-router
 yarn
 ```
 
+## Configuring ESLint
+```bash
+npx eslint --init
+```
+
 ## Get started
 
 ```bash
