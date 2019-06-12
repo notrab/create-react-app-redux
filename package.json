@@ -5,10 +5,11 @@
     "start": "react-scripts start",
     "now-start": "serve -s ./build",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "test": "jest",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "jest": "^24.8.0",
     "react-scripts": "2.1.8"
   },
   "dependencies": {
