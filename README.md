@@ -5,7 +5,7 @@ A create-react-app project with the following dependencies integrated and ready 
 * [React Redux](https://github.com/reduxjs/react-redux)
 * [React Router](https://github.com/ReactTraining/react-router)
 * [ESLint](https://eslint.org/)
-* [Flow](https://flow.org/) 
+* [Flow](https://flow.org/)
 * [Jest](https://jestjs.io/)
 
 ---
@@ -24,7 +24,7 @@ npx eslint --init
 ```
 ### Jest
 ```bash
-jest --init 
+npx jest --init 
 ```
 
 ### Flow
