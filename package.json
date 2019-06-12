@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "connected-react-router": "4.5.0",
+    "eslint": "^5.16.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-redux": "5.1.1",
