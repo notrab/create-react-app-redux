@@ -9,6 +9,9 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.101.0",
     "jest": "^24.8.0",
     "react-scripts": "2.1.8"
   },
