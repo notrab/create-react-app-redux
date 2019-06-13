@@ -18,6 +18,8 @@ yarn
 ```
 ---
 ## Configuring Dependencies
+Run the following commands before starting your project to get all dev dependencies up and running.
+
 ### ESLint
 ```bash
 npx eslint --init
@@ -29,7 +31,7 @@ npx jest --init
 
 ### Flow
 ```bash
-flow init
+yarn run flow init
 ```
 ---
 ## Get started
