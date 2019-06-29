@@ -9167,10 +9167,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sanitize.css@7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-7.0.3.tgz#121929e784381013256cd4805d1d8983a95ffae3"
-  integrity sha512-jV5ON1hb1vYixnWu7FOboBhYNowww+YYM04gOS2vGaXUmXciJ3YKVjZcnRo74R8OFjSySaXRJjzkjcl1emr1oA==
+sanitize.css@10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-10.0.0.tgz#b5cb2547e96d8629a60947544665243b1dc3657a"
+  integrity sha512-vTxrZz4dX5W86M6oVWVdOVe72ZiPs41Oi7Z6Km4W5Turyz28mrXSJhhEBZoRtzJWIv3833WKVwLSDWWkEfupMg==
 
 sass-loader@7.1.0:
   version "7.1.0"
