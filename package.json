@@ -12,7 +12,7 @@
     "babel-cli": "6.26.0",
     "babel-preset-flow": "6.23.0",
     "flow-bin": "0.102.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "3.0.1"
   },
   "dependencies": {
     "connected-react-router": "6.4.0",
