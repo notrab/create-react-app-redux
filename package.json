@@ -12,7 +12,7 @@
     "babel-cli": "6.26.0",
     "babel-preset-flow": "6.23.0",
     "flow-bin": "0.102.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "3.0.1"
   },
   "dependencies": {
     "connected-react-router": "6.4.0",
@@ -23,8 +23,8 @@
     "react-router-dom": "5.0.1",
     "redux": "4.0.1",
     "redux-thunk": "2.3.0",
-    "sanitize.css": "7.0.3",
-    "serve": "10.1.2"
+    "sanitize.css": "10.0.0",
+    "serve": "11.0.2"
   },
   "browserslist": [
     ">0.2%",
