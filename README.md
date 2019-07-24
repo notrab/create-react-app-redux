@@ -4,9 +4,7 @@ A create-react-app project with the following dependencies integrated and ready 
 * [Redux](https://redux.js.org/)
 * [React Redux](https://github.com/reduxjs/react-redux)
 * [React Router](https://github.com/ReactTraining/react-router)
-* [ESLint](https://eslint.org/)
 * [Flow](https://flow.org/)
-* [Jest](https://jestjs.io/)
 
 ---
 ## Installation
@@ -19,15 +17,6 @@ yarn
 ---
 ## Configuring Dependencies
 Run the following commands before starting your project to get all dev dependencies up and running.
-
-### ESLint
-```bash
-npx eslint --init
-```
-### Jest
-```bash
-npx jest --init 
-```
 
 ### Flow
 ```bash
