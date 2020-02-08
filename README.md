@@ -30,5 +30,11 @@ yarn run flow init
 yarn start
 ```
 
+<<<<<<< HEAD
 This project was forked from [this repo](https://github.com/davidmccormack/react-redux-router.git).
 This boilerplate is built using [create-react-app](https://github.com/facebook/create-react-app) so you will want to read the User Guide for more goodies!
+=======
+- This project was forked from [this repo](https://github.com/davidmccormack/react-redux-router.git).
+
+- This boilerplate is built using [create-react-app](https://github.com/facebook/create-react-app) so you will want to read the User Guide for more goodies.
+>>>>>>> 690c57706e5b128bf26b8ab030d68fe8bd61ae7b
