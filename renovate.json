@@ -2,5 +2,5 @@
   "extends": [
     "config:base"
   ],
-  "automerge": true
+  "autoMerge": true
 }
