@@ -31,4 +31,4 @@ yarn start
 ```
 
 This project was forked from [this repo](https://github.com/davidmccormack/react-redux-router.git).
-This boilerplate is built using [create-react-app](https://github.com/facebook/create-react-app) so you will want to read the User Guide for more goodies.
+This boilerplate is built using [create-react-app](https://github.com/facebook/create-react-app) so you will want to read the User Guide for more goodies!
