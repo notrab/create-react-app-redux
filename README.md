@@ -22,6 +22,7 @@ Run the following commands before starting your project to get all dev dependenc
 ```bash
 yarn run flow init
 ```
+
 ---
 ## Get started
 
