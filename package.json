@@ -23,7 +23,7 @@
     "react-router-dom": "4.4.0-beta.8",
     "redux": "4.0.5",
     "redux-thunk": "2.3.0",
-    "sanitize.css": "7.0.3",
+    "sanitize.css": "11.0.0",
     "serve": "10.1.2"
   },
   "browserslist": [
