@@ -11,7 +11,7 @@
     "precommit": "pretty-quick --staged"
   },
   "devDependencies": {
-    "prettier": "2.5.0",
+    "prettier": "2.5.1",
     "react-scripts": "2.1.8"
   },
   "dependencies": {
