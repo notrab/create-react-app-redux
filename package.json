@@ -24,7 +24,7 @@
     "redux": "4.2.0",
     "redux-thunk": "2.4.1",
     "sanitize.css": "11.0.1",
-    "serve": "10.1.2"
+    "serve": "14.0.1"
   },
   "browserslist": [
     ">0.2%",
